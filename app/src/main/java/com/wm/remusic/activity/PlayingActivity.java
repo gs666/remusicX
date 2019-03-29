@@ -400,6 +400,7 @@ public class PlayingActivity extends BaseActivity implements IConstants {
             @Override
             public void onClick(View v) {
                 MusicPlayer.cycleRepeat();
+                //切换图标并弹出提示
                 updatePlaymode();
             }
         });

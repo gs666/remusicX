@@ -73,8 +73,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
+
                     android:layout_below="@+id/view_line"
-                    android:layout_marginRight="100dp"
+                    android:layout_marginRight="550dp"
                     android:layout_marginTop="-16dp"
                     android:rotation="-30"
                     android:src="@drawable/play_needle"
@@ -250,7 +251,7 @@
                 <ImageView
                     android:id="@+id/playing_mode"
                     android:layout_width="wrap_content"
-                    android:layout_height="3dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
                     android:src="@drawable/play_icn_loop_prs" />
