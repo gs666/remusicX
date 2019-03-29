@@ -199,6 +199,7 @@ public class HttpUtil {
             mOkHttpClient.setConnectTimeout(1000, TimeUnit.MINUTES);
             mOkHttpClient.setReadTimeout(1000, TimeUnit.MINUTES);
             Request request = new Request.Builder()
+                    .addHeader("user-agent", "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:0.9.4)")
                     .url(action1)
                     .build();
             Response response = mOkHttpClient.newCall(request).execute();
@@ -230,6 +231,7 @@ public class HttpUtil {
             mOkHttpClient.setConnectTimeout(1000, TimeUnit.MINUTES);
             mOkHttpClient.setReadTimeout(1000, TimeUnit.MINUTES);
             Request.Builder builder = new Request.Builder()
+                    .addHeader("user-agent", "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:0.9.4)")
                     .url(action1);
             if (forceCache) {
                 builder.cacheControl(CacheControl.FORCE_CACHE);
@@ -262,6 +264,7 @@ public class HttpUtil {
             mOkHttpClient.setConnectTimeout(3000, TimeUnit.MINUTES);
             mOkHttpClient.setReadTimeout(3000, TimeUnit.MINUTES);
             Request request = new Request.Builder()
+                    .addHeader("user-agent", "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:0.9.4)")
                     .url(action1)
 //                    .addHeader("Referer","http://music.163.com/")
 //                    .addHeader("Cookie", "appver=1.5.0.75771")
