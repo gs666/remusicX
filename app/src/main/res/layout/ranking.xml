@@ -6,7 +6,7 @@
     <LinearLayout
         android:id="@+id/list_head"
         android:layout_width="match_parent"
-        android:layout_height="22dp"
+        android:layout_height="25dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
