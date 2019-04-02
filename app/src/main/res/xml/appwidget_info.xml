@@ -4,5 +4,4 @@
     android:minHeight="70dp"
     android:previewImage="@drawable/app_widget_preview_4x1"
     android:initialLayout="@layout/simple_control_widget_layout"
-    android:resizeMode="horizontal|vertical">
-    </appwidget-provider>
+    android:resizeMode="horizontal|vertical"></appwidget-provider>

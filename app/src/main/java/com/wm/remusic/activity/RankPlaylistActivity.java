@@ -305,7 +305,7 @@ public class RankPlaylistActivity extends BaseActivity implements ObservableScro
             }
         }
 
-        public void cancleTask(){
+        public void cancleTask() {
             cancel(true);
             RequestThreadPool.finish();
         }
@@ -334,7 +334,7 @@ public class RankPlaylistActivity extends BaseActivity implements ObservableScro
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if(mLoadNetList != null){
+        if (mLoadNetList != null) {
             mLoadNetList.cancleTask();
         }
     }

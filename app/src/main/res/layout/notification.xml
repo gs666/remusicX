@@ -12,6 +12,7 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:scaleType="centerCrop" />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -46,6 +47,7 @@
             android:textColor="@color/bottom_text"
             android:textSize="12sp" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_marginRight="10dp"
         android:id="@+id/action"
@@ -87,7 +89,6 @@
             android:src="@drawable/notification_close" />
 
     </LinearLayout>
-
 
 
 </RelativeLayout>

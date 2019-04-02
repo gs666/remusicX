@@ -40,6 +40,7 @@
                 android:background="@drawable/actionbar_search" />
         </RelativeLayout>
     </com.bilibili.magicasakura.widgets.TintToolbar>
+
     <android.support.design.widget.TabLayout
         android:id="@+id/tabs"
         android:layout_width="match_parent"

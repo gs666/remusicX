@@ -41,6 +41,7 @@
         android:layout_height="179dp"
         android:orientation="horizontal"
         android:visibility="visible">
+
         <TextView
             android:layout_marginLeft="15dp"
             android:id="@+id/album_title_"
@@ -50,6 +51,7 @@
             android:paddingTop="3dp"
             android:textColor="#ffffff"
             android:textSize="16sp" />
+
         <TextView
             android:layout_marginTop="3dp"
             android:layout_below="@+id/album_title_"

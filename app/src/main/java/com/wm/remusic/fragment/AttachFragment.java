@@ -16,7 +16,7 @@ public class AttachFragment extends Fragment {
     public Activity mContext;
 
     @Override
-    public void onAttach(Activity activity){
+    public void onAttach(Activity activity) {
         super.onAttach(activity);
         this.mContext = activity;
     }

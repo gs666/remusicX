@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:background="@color/widget_background_color"
     android:layout_height="65dp">
 
@@ -13,6 +14,7 @@
         android:src="@drawable/placeholder_disk_play_program"
         android:layout_width="65dp"
         android:layout_height="match_parent" />
+
     <TextView
         android:layout_marginTop="2dp"
         android:textSize="13sp"
@@ -22,6 +24,7 @@
         android:id="@+id/widget_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
     <ProgressBar
         android:layout_marginTop="5dp"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
@@ -32,6 +35,7 @@
         android:progress="10"
         android:layout_width="match_parent"
         android:layout_height="2dp" />
+
     <ImageView
         android:id="@+id/widget_theme"
         android:layout_alignParentBottom="true"
@@ -40,6 +44,7 @@
         android:layout_marginRight="26dp"
         android:layout_width="30dp"
         android:layout_height="30dp" />
+
     <LinearLayout
         android:orientation="horizontal"
         android:id="@+id/widget_control"
@@ -48,6 +53,7 @@
         android:layout_toLeftOf="@+id/widget_love"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <ImageView
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
@@ -55,6 +61,7 @@
             android:id="@+id/widget_pre"
             android:layout_width="36dp"
             android:layout_height="36dp" />
+
         <ImageView
             android:layout_weight="1"
             android:src="@drawable/widget_play_selector"
@@ -62,6 +69,7 @@
             android:id="@+id/widget_play"
             android:layout_width="43dp"
             android:layout_height="43dp" />
+
         <ImageView
             android:layout_weight="1"
             android:src="@drawable/widget_next_selector"

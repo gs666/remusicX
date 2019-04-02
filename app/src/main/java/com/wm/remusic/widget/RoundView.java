@@ -44,16 +44,16 @@ public class RoundView extends FrameLayout {
 
     }
 
-    public static RoundView getView(Context context ,String str){
+    public static RoundView getView(Context context, String str) {
         RoundView view = new RoundView(context);
         view.setAlbum(str);
-        Log.e("uqueue",str);
+        Log.e("uqueue", str);
         return view;
     }
 
-    private void initView(Context context){
+    private void initView(Context context) {
         this.setAnimationCacheEnabled(false);
-        mView = LayoutInflater.from(context).inflate(R.layout.fragment_roundimage,null);
+        mView = LayoutInflater.from(context).inflate(R.layout.fragment_roundimage, null);
         albumView = (SimpleDraweeView) mView.findViewById(R.id.sdv);
         addView(mView);
         //设置图像是否为圆形
@@ -69,7 +69,7 @@ public class RoundView extends FrameLayout {
         albumView.setHierarchy(hierarchy);
     }
 
-    public void setAlbum(String albumPath){
+    public void setAlbum(String albumPath) {
         if (albumPath == null) {
             albumView.setImageURI(Uri.parse("res:/" + R.drawable.placeholder_disk_play_song));
         } else {
@@ -85,7 +85,7 @@ public class RoundView extends FrameLayout {
                 e.printStackTrace();
             }
         }
-        Log.e("roundview","setalbum = " + albumPath);
+        Log.e("roundview", "setalbum = " + albumPath);
 
     }
 

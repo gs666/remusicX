@@ -3,6 +3,7 @@
     android:id="@+id/dayly_music_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/loading_dayimage"
         android:layout_marginBottom="100dp"
@@ -10,6 +11,7 @@
         android:src="@drawable/list_loadingdaymusic"
         android:layout_width="70dp"
         android:layout_height="70dp" />
+
     <TextView
         android:text="正在开启推荐"
         android:textSize="15sp"

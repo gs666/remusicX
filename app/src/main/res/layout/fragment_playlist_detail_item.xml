@@ -3,6 +3,7 @@
     android:layout_height="55dp"
     android:background="?attr/selectableItemBackground"
     android:orientation="vertical">
+
     <com.bilibili.magicasakura.widgets.TintImageView
         android:id="@+id/play_state"
         android:layout_width="wrap_content"
@@ -14,6 +15,7 @@
         android:paddingRight="10dp"
         android:scaleType="centerInside"
         android:visibility="gone" />
+
     <TextView
         android:layout_marginLeft="10dp"
         android:id="@+id/trackNumber"

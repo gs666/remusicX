@@ -18,7 +18,7 @@ public class BaseFragment extends Fragment implements MusicStateListener {
     public Activity mContext;
 
     @Override
-    public void onAttach(Activity activity){
+    public void onAttach(Activity activity) {
         super.onAttach(activity);
         this.mContext = activity;
     }

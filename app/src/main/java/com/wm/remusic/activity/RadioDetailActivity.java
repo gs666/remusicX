@@ -561,7 +561,7 @@ public class RadioDetailActivity extends BaseActivity implements ObservableScrol
                         }
                         MusicPlayer.playAll(infos, list, 0, false);
                     }
-                },70);
+                }, 70);
 
             }
 
@@ -598,7 +598,7 @@ public class RadioDetailActivity extends BaseActivity implements ObservableScrol
                         if (getAdapterPosition() > 0)
                             MusicPlayer.playAll(infos, list, getAdapterPosition() - 1, false);
                     }
-                },70);
+                }, 70);
 
             }
 

@@ -524,10 +524,10 @@ public class ConverPinYin {
         return retuBuf.toString();
     }
 
-	/*
+    /*
      * public static void main(String args[]) { String str = "���뺺��";
-	 * System.out.println(ConverPinYin.getFullSpell(str));
-	 * System.out.println(ConverPinYin.getFirstSpell(str));
-	 * //ConverPinYin.getFirstSpell(str) ConverPinYin.getFullSpell(str); }
-	 */
+     * System.out.println(ConverPinYin.getFullSpell(str));
+     * System.out.println(ConverPinYin.getFirstSpell(str));
+     * //ConverPinYin.getFirstSpell(str) ConverPinYin.getFullSpell(str); }
+     */
 }

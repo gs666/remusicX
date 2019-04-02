@@ -263,18 +263,18 @@ public class ImageUtils {
 
 
     /*
-    * private static class FastBitmapDrawable extends Drawable { private Bitmap
-    * mBitmap; public FastBitmapDrawable(Bitmap b) { mBitmap = b; }
-    *
-    * @Override public void draw(Canvas canvas) { canvas.drawBitmap(mBitmap, 0,
-    * 0, null); }
-    *
-    * @Override public int getOpacity() { return PixelFormat.OPAQUE; }
-    *
-    * @Override public void setAlpha(int alpha) { }
-    *
-    * @Override public void setColorFilter(ColorFilter cf) { } }
-    */
+     * private static class FastBitmapDrawable extends Drawable { private Bitmap
+     * mBitmap; public FastBitmapDrawable(Bitmap b) { mBitmap = b; }
+     *
+     * @Override public void draw(Canvas canvas) { canvas.drawBitmap(mBitmap, 0,
+     * 0, null); }
+     *
+     * @Override public int getOpacity() { return PixelFormat.OPAQUE; }
+     *
+     * @Override public void setAlpha(int alpha) { }
+     *
+     * @Override public void setColorFilter(ColorFilter cf) { } }
+     */
     private static String[] proj_album = new String[]{MediaStore.Audio.Albums._ID, MediaStore.Audio.Albums.ALBUM_ART,
             MediaStore.Audio.Albums.ALBUM, MediaStore.Audio.Albums.NUMBER_OF_SONGS, MediaStore.Audio.Albums.ARTIST};
 

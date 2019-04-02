@@ -7,7 +7,8 @@
         android:layout_marginBottom="50dp"
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
+
     <TextView
         android:id="@+id/dialog_text"
         android:gravity="center"
@@ -15,6 +16,7 @@
         android:layout_gravity="center"
         android:layout_width="100dp"
         android:layout_height="100dp" />
+
     <com.wm.remusic.widget.SideBar
         android:visibility="invisible"
         android:id="@+id/sidebar"

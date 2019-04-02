@@ -2,20 +2,25 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <com.facebook.drawee.view.SimpleDraweeView
         android:src="@drawable/login_bg_night"
         android:scaleType="centerCrop"
         android:id="@+id/lock_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#70000000" />
+
     <com.wm.remusic.widget.SildingFinishLayout
-        android:orientation="vertical" android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:id="@+id/lock_root"
         android:layout_height="match_parent">
+
         <TextView
             android:textColor="@color/white_text"
             android:layout_marginTop="70dp"
@@ -36,6 +41,7 @@
             android:id="@+id/lock_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
         <TextView
             android:textColor="@color/white_text"
             android:layout_marginTop="15dp"
@@ -45,6 +51,7 @@
             android:id="@+id/lock_music_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
         <TextView
             android:textColor="@color/white_text"
             android:layout_marginTop="5dp"
@@ -54,6 +61,7 @@
             android:id="@+id/lock_music_artsit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
         <TextView
             android:textColor="@color/white_text"
             android:layout_marginBottom="30dp"
@@ -63,6 +71,7 @@
             android:id="@+id/lock_music_lrc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
         <LinearLayout
             android:layout_marginBottom="30dp"
             android:layout_above="@+id/lock_tip"
@@ -70,24 +79,28 @@
             android:layout_height="60dp"
             android:id="@+id/lock_control"
             android:orientation="horizontal">
+
             <ImageView
                 android:src="@drawable/lock_btn_prev"
                 android:id="@+id/lock_music_pre"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content" />
+
             <ImageView
                 android:src="@drawable/lock_btn_pause"
                 android:id="@+id/lock_music_play"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content" />
+
             <ImageView
                 android:src="@drawable/lock_btn_next"
                 android:id="@+id/lock_music_next"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content" />
+
             <ImageView
                 android:src="@drawable/lock_btn_love"
                 android:id="@+id/lock_music_fav"

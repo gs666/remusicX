@@ -180,7 +180,7 @@ public class ArtistDetailActivity extends BaseActivity implements ObservableScro
                 }
 
                 int tryCount = 0;
-                while (sparseArray.size() != musicCount && tryCount < 1000 && !isCancelled()){
+                while (sparseArray.size() != musicCount && tryCount < 1000 && !isCancelled()) {
                     tryCount++;
                     try {
                         Thread.sleep(30);
@@ -189,7 +189,7 @@ public class ArtistDetailActivity extends BaseActivity implements ObservableScro
                     }
                 }
 
-                if(sparseArray.size() == musicCount){
+                if (sparseArray.size() == musicCount) {
                     for (int i = 0; i < mList.size(); i++) {
                         try {
                             MusicInfo musicInfo = new MusicInfo();
@@ -235,13 +235,11 @@ public class ArtistDetailActivity extends BaseActivity implements ObservableScro
 
         }
 
-        public void cancleTask(){
+        public void cancleTask() {
             cancel(true);
             RequestThreadPool.finish();
         }
     }
-
-
 
 
     @Override
@@ -257,7 +255,7 @@ public class ArtistDetailActivity extends BaseActivity implements ObservableScro
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if(mLoadNetList != null){
+        if (mLoadNetList != null) {
             mLoadNetList.cancleTask();
         }
     }

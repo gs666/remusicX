@@ -46,6 +46,7 @@
             android:textColor="@color/bottom_text"
             android:textSize="12sp" />
     </LinearLayout>
+
     <TextView
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"

@@ -89,7 +89,7 @@ public class RecentActivity extends BaseActivity {
 
     //刷新列表
     public void updateTrack() {
-        if(mAdapter != null){
+        if (mAdapter != null) {
             mAdapter.updateDataSet(mList);
         }
 
@@ -224,7 +224,7 @@ public class RecentActivity extends BaseActivity {
                         }
                         MusicPlayer.playAll(infos, list, 0, false);
                     }
-                },70);
+                }, 70);
 
             }
 

@@ -39,12 +39,12 @@ public class HttpUtils {
     public static HttpURLConnection send(URLConnection request) {
         /*
          * 添加需要的Header
-		 */
+         */
 //		request.setRequestProperty(Constants.USER_AGENT, "TrafficRadio_BedPotato_Exclusive_UA");
         // TODO Others Header
         /*
          * 发送请求
-		 */
+         */
         HttpURLConnection httpURLConnection = (HttpURLConnection) request;
         httpURLConnection.setConnectTimeout(20000);
         httpURLConnection.setReadTimeout(60000);

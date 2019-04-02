@@ -41,8 +41,8 @@ import java.util.List;
 
 /**
  * @author wm
- *         Created by wm on 2016/3/8.
- *         本地界面主界面
+ * Created by wm on 2016/3/8.
+ * 本地音乐主界面
  */
 public class MainFragment extends BaseFragment {
 
@@ -66,7 +66,7 @@ public class MainFragment extends BaseFragment {
         super.onCreate(savedInstanceState);
         playlistInfo = PlaylistInfo.getInstance(mContext);
         if (CommonUtils.isLollipop() && ContextCompat.checkSelfPermission(mContext, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions((Activity) mContext,new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 0);
+            ActivityCompat.requestPermissions((Activity) mContext, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 0);
         }
     }
 
@@ -134,14 +134,14 @@ public class MainFragment extends BaseFragment {
     }
 
     private void loadCount(boolean has) {
-        int localMusicCount = 0, recentMusicCount = 0,downLoadCount = 0 ,artistsCount = 0;
-        if(has){
-            try{
+        int localMusicCount = 0, recentMusicCount = 0, downLoadCount = 0, artistsCount = 0;
+        if (has) {
+            try {
                 localMusicCount = MusicUtils.queryMusic(mContext, IConstants.START_FROM_LOCAL).size();
                 recentMusicCount = TopTracksLoader.getCount(MainApplication.context, TopTracksLoader.QueryType.RecentSongs);
                 downLoadCount = DownFileStore.getInstance(mContext).getDownLoadedListAll().size();
                 artistsCount = MusicUtils.queryArtist(mContext).size();
-            }catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
             }
 
@@ -169,7 +169,7 @@ public class MainFragment extends BaseFragment {
                     results.addAll(netPlaylists);
                 }
 
-                if(mAdapter == null){
+                if (mAdapter == null) {
                     mAdapter = new MainFragmentAdapter(mContext);
                 }
                 mAdapter.updateResults(results, playlists, netPlaylists);

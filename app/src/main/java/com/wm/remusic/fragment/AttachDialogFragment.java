@@ -17,7 +17,7 @@ public class AttachDialogFragment extends DialogFragment {
     public Activity mContext;
 
     @Override
-    public void onAttach(Activity activity){
+    public void onAttach(Activity activity) {
         super.onAttach(activity);
         this.mContext = activity;
     }

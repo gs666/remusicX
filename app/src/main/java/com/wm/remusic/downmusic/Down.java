@@ -66,8 +66,8 @@ public class Down {
                     i.putExtra("url", musicFileDownInfo.getShow_link());
                     i.setPackage(IConstants.PACKAGE);
                     context.startService(i);
-                }else {
-                    Toast.makeText(context,"该歌曲没有下载连接",Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(context, "该歌曲没有下载连接", Toast.LENGTH_SHORT).show();
                 }
             }
         }.execute();

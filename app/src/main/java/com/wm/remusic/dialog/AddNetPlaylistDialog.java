@@ -107,7 +107,7 @@ public class AddNetPlaylistDialog extends AttachDialogFragment {
                         new Thread(new Runnable() {
                             @Override
                             public void run() {
-                                Log.e("addplay","here");
+                                Log.e("addplay", "here");
                                 String albumart = null;
                                 for (MusicInfo info : musics) {
                                     albumart = info.albumData;

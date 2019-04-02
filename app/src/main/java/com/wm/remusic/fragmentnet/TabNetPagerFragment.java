@@ -76,15 +76,17 @@ public class TabNetPagerFragment extends AttachFragment implements ChangeView {
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
-        if(recommendFragment == null){
+        if (recommendFragment == null) {
             return;
         }
-        if(isVisibleToUser && isFirstLoad){
+        if (isVisibleToUser && isFirstLoad) {
             recommendFragment.requestData();
             isFirstLoad = false;
         }
     }
+
     RecommendFragment recommendFragment;
+
     private void setupViewPager(ViewPager viewPager) {
         Adapter adapter = new Adapter(getChildFragmentManager());
         recommendFragment = new RecommendFragment();

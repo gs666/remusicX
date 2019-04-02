@@ -95,7 +95,7 @@ public class MusicFragment extends BaseFragment {
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
-        if(isVisibleToUser){
+        if (isVisibleToUser) {
             loadView();
         }
 
@@ -126,7 +126,7 @@ public class MusicFragment extends BaseFragment {
         isFirstLoad = true;
         isAZSort = mPreferences.getSongSortOrder().equals(SortOrder.SongSortOrder.SONG_A_Z);
 
-        if(getUserVisibleHint()){
+        if (getUserVisibleHint()) {
             loadView();
         }
 
@@ -166,9 +166,9 @@ public class MusicFragment extends BaseFragment {
                     sideBar.setVisibility(View.INVISIBLE);
                     recyclerView.removeOnScrollListener(scrollListener);
                 }
-                Log.e("MusicFragment","load t");
+                Log.e("MusicFragment", "load t");
                 if (isFirstLoad) {
-                    Log.e("MusicFragment","load");
+                    Log.e("MusicFragment", "load");
                     frameLayout.removeAllViews();
                     //framelayout 创建了新的实例
                     ViewGroup p = (ViewGroup) view.getParent();
@@ -345,11 +345,11 @@ public class MusicFragment extends BaseFragment {
 
             public void onClick(View v) {
                 //// TODO: 2016/1/20
-                if(playMusic != null)
+                if (playMusic != null)
                     handler.removeCallbacks(playMusic);
-                if(getAdapterPosition() > -1){
+                if (getAdapterPosition() > -1) {
                     playMusic = new PlayMusic(0);
-                    handler.postDelayed(playMusic,70);
+                    handler.postDelayed(playMusic, 70);
                 }
 //                HandlerUtil.getInstance(getContext()).postDelayed(new Runnable() {
 //                    @Override
@@ -400,11 +400,11 @@ public class MusicFragment extends BaseFragment {
 
             @Override
             public void onClick(View v) {
-                if(playMusic != null)
+                if (playMusic != null)
                     handler.removeCallbacks(playMusic);
-                if(getAdapterPosition() > -1){
+                if (getAdapterPosition() > -1) {
                     playMusic = new PlayMusic(getAdapterPosition() - 1);
-                    handler.postDelayed(playMusic,70);
+                    handler.postDelayed(playMusic, 70);
                 }
 //                HandlerUtil.getInstance(getContext()).postDelayed(new Runnable() {
 //                    @Override
@@ -426,9 +426,10 @@ public class MusicFragment extends BaseFragment {
 
         }
 
-        class PlayMusic implements Runnable{
+        class PlayMusic implements Runnable {
             int position;
-            public PlayMusic(int position){
+
+            public PlayMusic(int position) {
                 this.position = position;
             }
 

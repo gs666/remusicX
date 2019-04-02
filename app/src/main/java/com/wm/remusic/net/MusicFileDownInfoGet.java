@@ -16,7 +16,7 @@ public class MusicFileDownInfoGet implements Runnable {
     SparseArray<MusicFileDownInfo> arrayList;
     int downloadBit;
 
-    public MusicFileDownInfoGet(String id, int position, SparseArray<MusicFileDownInfo> arrayList ,int bit) {
+    public MusicFileDownInfoGet(String id, int position, SparseArray<MusicFileDownInfo> arrayList, int bit) {
         this.id = id;
         p = position;
         this.arrayList = arrayList;

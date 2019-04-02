@@ -98,7 +98,7 @@ public class LoodView extends FrameLayout {
 
     }
 
-    public void onDestroy(){
+    public void onDestroy() {
         scheduledExecutorService.shutdownNow();
         scheduledExecutorService = null;
     }
@@ -157,9 +157,9 @@ public class LoodView extends FrameLayout {
                 }
             };
             Uri uri = null;
-            try{
+            try {
                 uri = Uri.parse(imagesID);
-            }catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
             }
             if (uri != null) {

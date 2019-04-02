@@ -80,6 +80,7 @@
             app:imageTint="@color/theme_color_primary"
             android:src="@drawable/playbar_btn_next" />
     </LinearLayout>
+
     <com.bilibili.magicasakura.widgets.TintProgressBar
         android:id="@+id/song_progress_normal"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"

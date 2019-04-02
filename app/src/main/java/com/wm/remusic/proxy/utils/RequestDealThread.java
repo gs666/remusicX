@@ -96,7 +96,7 @@ public class RequestDealThread extends Thread {
             int cacheFileSize = cacheDao.getFileSize(fileUtils.getFileName());
             /*
              * 如果缓存完成，无需发送请求，本地缓存返回MediaPlayer。
-			 */
+             */
             if (fileUtils.isEnable() && fileUtils.getLength() == cacheFileSize) {
                 audioCache = fileUtils.read(originRangeStart, Constants.AUDIO_BUFFER_MAX_LENGTH);
                 sendLocalHeaderAndCache(originRangeStart, cacheFileSize - 1, cacheFileSize, audioCache);
@@ -105,7 +105,7 @@ public class RequestDealThread extends Thread {
             // TODO 这里可能需要网络判断
             /*
              * 请求Range起始值和本地缓存比对。如果有缓存，得到缓存内容，修改Range。 如果没有缓存，则Range不变。
-			 */
+             */
             if (fileUtils.isEnable() && originRangeStart < fileUtils.getLength()) {
                 audioCache = fileUtils.read(originRangeStart, Constants.AUDIO_BUFFER_MAX_LENGTH);
                 Log.i(LOG_TAG, "本地已缓存长度（跳过）:" + audioCache.length);
@@ -122,11 +122,11 @@ public class RequestDealThread extends Thread {
             boolean isCacheEnough = (audioCache != null && audioCache.length == Constants.AUDIO_BUFFER_MAX_LENGTH) ? true
                     : false;
 
-			/*
+            /*
              * 如果缓存足够，且本地有文件长度，则直接发送缓存,不发送请求。。。。。。。。。。。。。。。。。。。
-			 * 如果缓存足够，本地没有文件长度，则发送请求，使用ResponseHeader，返回缓存,!不接收ResponseContent
-			 * 如果缓存不足，则发送请求，使用ResponseHeader，返回缓存，!返回Response Content
-			 */
+             * 如果缓存足够，本地没有文件长度，则发送请求，使用ResponseHeader，返回缓存,!不接收ResponseContent
+             * 如果缓存不足，则发送请求，使用ResponseHeader，返回缓存，!返回Response Content
+             */
             // 缓存足够&&有文件大小
             if (isCacheEnough && cacheFileSize > 0) {
                 sendLocalHeaderAndCache(originRangeStart, cacheFileSize - 1, cacheFileSize, audioCache);
@@ -135,8 +135,8 @@ public class RequestDealThread extends Thread {
             else {
                 HttpURLConnection realResponse = null;
                 /*
-				 * 返回Header和Cache
-				 */
+                 * 返回Header和Cache
+                 */
                 // 如果数据库没有存文件大小，则获取（处理数据库没有文件大小的情况）
                 if (cacheFileSize <= 0) {
                     Log.d(LOG_TAG, "数据库未包含文件大小，发送请求");

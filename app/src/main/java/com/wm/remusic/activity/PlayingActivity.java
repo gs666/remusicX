@@ -150,7 +150,6 @@ public class PlayingActivity extends BaseActivity implements IConstants {
         }
 
 
-
         mAlbumLayout = (FrameLayout) findViewById(R.id.headerView);
         mLrcViewContainer = (RelativeLayout) findViewById(R.id.lrcviewContainer);
         mLrcView = (LrcView) findViewById(R.id.lrcview);
@@ -313,7 +312,7 @@ public class PlayingActivity extends BaseActivity implements IConstants {
         mViewPager.setAdapter(mAdapter);
         mViewPager.setPageTransformer(true, transformer);
 
-      // 改变viewpager动画时间
+        // 改变viewpager动画时间
         try {
             Field mField = ViewPager.class.getDeclaredField("mScroller");
             mField.setAccessible(true);
@@ -358,7 +357,7 @@ public class PlayingActivity extends BaseActivity implements IConstants {
 
                             Message msg = new Message();
                             msg.what = PRE_MUSIC;
-                            mPlayHandler.sendMessageDelayed(msg,TIME_DELAY);
+                            mPlayHandler.sendMessageDelayed(msg, TIME_DELAY);
 
 
                         } else if (pPosition > MusicPlayer.getQueuePosition() + 1) {
@@ -373,7 +372,7 @@ public class PlayingActivity extends BaseActivity implements IConstants {
 
                             Message msg = new Message();
                             msg.what = NEXT_MUSIC;
-                            mPlayHandler.sendMessageDelayed(msg,TIME_DELAY);
+                            mPlayHandler.sendMessageDelayed(msg, TIME_DELAY);
 
                         }
                     }
@@ -408,7 +407,7 @@ public class PlayingActivity extends BaseActivity implements IConstants {
         mPre.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // MusicPlayer.previous(PlayingActivity.this.getApplication(), true);
+                // MusicPlayer.previous(PlayingActivity.this.getApplication(), true);
 
                 Message msg = new Message();
                 msg.what = PRE_MUSIC;
@@ -444,7 +443,7 @@ public class PlayingActivity extends BaseActivity implements IConstants {
                 msg.what = NEXT_MUSIC;
                 mPlayHandler.sendMessage(msg);
 
-             //   MusicPlayer.mNext();
+                //   MusicPlayer.mNext();
             }
         });
 
@@ -558,12 +557,12 @@ public class PlayingActivity extends BaseActivity implements IConstants {
     public void onResume() {
         super.onResume();
         lastAlbum = -1;
-        if(MusicPlayer.isTrackLocal())
+        if (MusicPlayer.isTrackLocal())
             updateBuffer(100);
         else {
             updateBuffer(MusicPlayer.secondPosition());
         }
-        mHandler.postDelayed(mUpdateProgress,0);
+        mHandler.postDelayed(mUpdateProgress, 0);
     }
 
 
@@ -598,8 +597,8 @@ public class PlayingActivity extends BaseActivity implements IConstants {
 
     public void updateTrack() {
         mHandler.removeCallbacks(mUpAlbumRunnable);
-        if(MusicPlayer.getCurrentAlbumId() != lastAlbum)
-        mHandler.postDelayed(mUpAlbumRunnable, 1600);
+        if (MusicPlayer.getCurrentAlbumId() != lastAlbum)
+            mHandler.postDelayed(mUpAlbumRunnable, 1600);
 
 
         isFav = false;
@@ -636,7 +635,7 @@ public class PlayingActivity extends BaseActivity implements IConstants {
         Fragment fragment = (RoundFragment) mViewPager.getAdapter().instantiateItem(mViewPager, mViewPager.getCurrentItem());
         if (fragment != null) {
             View v = fragment.getView();
-            if(mViewWeakReference.get() != v && v != null){
+            if (mViewWeakReference.get() != v && v != null) {
                 ((ViewGroup) v).setAnimationCacheEnabled(false);
                 if (mViewWeakReference != null)
                     mViewWeakReference.clear();
@@ -696,7 +695,7 @@ public class PlayingActivity extends BaseActivity implements IConstants {
 
     @Override
     public void updateBuffer(int p) {
-        mProgress.setSecondaryProgress(p*10);
+        mProgress.setSecondaryProgress(p * 10);
     }
 
     @Override
@@ -712,14 +711,14 @@ public class PlayingActivity extends BaseActivity implements IConstants {
             if (mProgress != null) {
                 long position = MusicPlayer.position();
                 long duration = MusicPlayer.duration();
-                if (duration > 0 && duration < 627080716){
+                if (duration > 0 && duration < 627080716) {
                     mProgress.setProgress((int) (1000 * position / duration));
-                    mTimePlayed.setText(MusicUtils.makeTimeString( position ));
+                    mTimePlayed.setText(MusicUtils.makeTimeString(position));
                 }
 
                 if (MusicPlayer.isPlaying()) {
                     mProgress.postDelayed(mUpdateProgress, 200);
-                }else {
+                } else {
                     mProgress.removeCallbacks(mUpdateProgress);
                 }
             }
@@ -737,8 +736,8 @@ public class PlayingActivity extends BaseActivity implements IConstants {
                     i = (int) (i * MusicPlayer.duration() / 1000);
                     mLrcView.seekTo(i, true, b);
                     if (b) {
-                        MusicPlayer.seek((long)i);
-                        mTimePlayed.setText(MusicUtils.makeTimeString( i ));
+                        MusicPlayer.seek((long) i);
+                        mTimePlayed.setText(MusicUtils.makeTimeString(i));
                     }
                 }
 
@@ -1059,28 +1058,28 @@ public class PlayingActivity extends BaseActivity implements IConstants {
 //    });
 
     public class PlayMusic extends Thread {
-        public void run(){
-                if(Looper.myLooper() == null)
+        public void run() {
+            if (Looper.myLooper() == null)
                 Looper.prepare();
-                mPlayHandler = new Handler(){
-                    @Override
-                    public void handleMessage(Message msg) {
-                        super.handleMessage(msg);
-                            switch (msg.what){
-                                case PRE_MUSIC:
-                                    MusicPlayer.previous(PlayingActivity.this,true);
-                                    break;
-                                case NEXT_MUSIC:
-                                    MusicPlayer.next();
-                                    break;
-                                case 3:
-                                    MusicPlayer.setQueuePosition(msg.arg1);
-                                    break;
-                        }
+            mPlayHandler = new Handler() {
+                @Override
+                public void handleMessage(Message msg) {
+                    super.handleMessage(msg);
+                    switch (msg.what) {
+                        case PRE_MUSIC:
+                            MusicPlayer.previous(PlayingActivity.this, true);
+                            break;
+                        case NEXT_MUSIC:
+                            MusicPlayer.next();
+                            break;
+                        case 3:
+                            MusicPlayer.setQueuePosition(msg.arg1);
+                            break;
                     }
-                };
+                }
+            };
 
-                Looper.loop();
+            Looper.loop();
 
         }
     }
