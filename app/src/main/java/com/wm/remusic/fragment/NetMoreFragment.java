@@ -186,21 +186,23 @@ public class NetMoreFragment extends AttachDialogFragment {
                         dismiss();
                         break;
                     case 3:
-                        new AlertDialog.Builder(mContext).setTitle("要下载音乐吗").
-                                setPositiveButton(mContext.getString(R.string.sure), new DialogInterface.OnClickListener() {
 
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        Down.downMusic(MainApplication.context, adapterMusicInfo.songId + "", adapterMusicInfo.musicName, adapterMusicInfo.artist);
-                                        dialog.dismiss();
-                                    }
-                                }).
-                                setNegativeButton(mContext.getString(R.string.cancel), new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        dialog.dismiss();
-                                    }
-                                }).show();
+                        Down.downMusic(MainApplication.context, adapterMusicInfo.songId + "", adapterMusicInfo.musicName, adapterMusicInfo.artist);
+//                        new AlertDialog.Builder(mContext).setTitle("要下载音乐吗").
+//                                setPositiveButton(mContext.getString(R.string.sure), new DialogInterface.OnClickListener() {
+//
+//                                    @Override
+//                                    public void onClick(DialogInterface dialog, int which) {
+//                                        Down.downMusic(MainApplication.context, adapterMusicInfo.songId + "", adapterMusicInfo.musicName, adapterMusicInfo.artist);
+//                                        dialog.dismiss();
+//                                    }
+//                                }).
+//                                setNegativeButton(mContext.getString(R.string.cancel), new DialogInterface.OnClickListener() {
+//                                    @Override
+//                                    public void onClick(DialogInterface dialog, int which) {
+//                                        dialog.dismiss();
+//                                    }
+//                                }).show();
                         dismiss();
                         break;
                     case 4:

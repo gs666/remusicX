@@ -155,20 +155,22 @@ public class SearchMusicFragment extends AttachFragment {
                     @Override
                     public void onClick(View v) {
                         final SearchSongInfo model = mList.get(getAdapterPosition());
-                        new AlertDialog.Builder(mContext).setTitle("要下载音乐吗").
-                                setPositiveButton(mContext.getString(R.string.sure), new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        Down.downMusic(MainApplication.context, model.getSong_id() + "", model.getTitle(), model.getAuthor());
-                                        dialog.dismiss();
-                                    }
-                                }).
-                                setNegativeButton(mContext.getString(R.string.cancel), new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        dialog.dismiss();
-                                    }
-                                }).show();
+                        Down.downMusic(MainApplication.context, model.getSong_id() + "", model.getTitle(), model.getAuthor());
+
+//                        new AlertDialog.Builder(mContext).setTitle("要下载音乐吗").
+//                                setPositiveButton(mContext.getString(R.string.sure), new DialogInterface.OnClickListener() {
+//                                    @Override
+//                                    public void onClick(DialogInterface dialog, int which) {
+//                                        Down.downMusic(MainApplication.context, model.getSong_id() + "", model.getTitle(), model.getAuthor());
+//                                        dialog.dismiss();
+//                                    }
+//                                }).
+//                                setNegativeButton(mContext.getString(R.string.cancel), new DialogInterface.OnClickListener() {
+//                                    @Override
+//                                    public void onClick(DialogInterface dialog, int which) {
+//                                        dialog.dismiss();
+//                                    }
+//                                }).show();
                     }
                 });
                 view.setOnClickListener(new View.OnClickListener() {

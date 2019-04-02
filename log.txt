@@ -1,0 +1,420 @@
+--------- beginning of system
+04-01 21:42:06.700   570   653 E DisplaydConnector: Communications error: java.io.IOException: No such file or directory
+04-01 21:42:06.701   570   653 E DisplaydConnector: Error in NativeDaemonConnector: java.io.IOException: No such file or directory
+04-01 21:42:08.998   570   645 D ConnectivityService: updateNetworkScore for NetworkAgentInfo [WIFI () - 1354] to 60
+04-01 21:42:11.703   570   653 E DisplaydConnector: Communications error: java.io.IOException: No such file or directory
+04-01 21:42:11.705   570   653 E DisplaydConnector: Error in NativeDaemonConnector: java.io.IOException: No such file or directory
+--------- beginning of main
+04-01 21:42:15.104   570   643 D WifiStateMachine: starting scan for "skyworth-L2_5GHz"WPA_PSK with 5180
+04-01 21:42:15.329   570   605 D Tethering: interfaceLinkStateChanged wlan0, true
+04-01 21:42:15.330   570   605 D Tethering: interfaceStatusChanged wlan0, true
+04-01 21:42:16.603   570   594 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.wm.remusic/.activity.SplashActivity bnds=[960,156][1161,294] (has extras)} from uid 10006 on display 0
+04-01 21:42:16.616   245   321 D AudioHardwareTiny: start_output_stream
+04-01 21:42:16.617   245   321 D alsa_route: route_info->sound_card 0, route_info->devices 0  
+04-01 21:42:16.618   245   321 D alsa_route: route_set_controls() set route 0
+04-01 21:42:16.620   570   609 D WindowStateAnimator: rk_debug2 Starting com.wm.remusic_Force_To_Dual
+04-01 21:42:16.655   570   609 D Surface : Surface::final mReqUsage=33
+04-01 21:42:16.667   208   225 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:16.706   570   653 E DisplaydConnector: Communications error: java.io.IOException: No such file or directory
+04-01 21:42:16.706   570   653 E DisplaydConnector: Error in NativeDaemonConnector: java.io.IOException: No such file or directory
+04-01 21:42:16.815  3101  3101 D SplashActivity: All of requested permissions has been granted, so run app logic directly.
+04-01 21:42:16.874  3101  3101 E YoumiSdk: Show spot failed, errorCode: 2.
+04-01 21:42:16.875   570   757 I ActivityManager: START u0 {flg=0x4000000 cmp=com.wm.remusic/.activity.MainActivity} from uid 10060 on display 0
+04-01 21:42:16.899  3101  3141 I YoumiSdk: *****
+04-01 21:42:16.900  3101  3141 I YoumiSdk: Current SDK Version is Youmi Android SDK w7.0.1, s7.0.0
+04-01 21:42:16.900  3101  3141 I YoumiSdk: App ID : 9ca9f88752601ff9
+04-01 21:42:16.900  3101  3141 I YoumiSdk: App Sec : c91f620182e46bad
+04-01 21:42:16.900  3101  3141 I YoumiSdk: App Name : remusic
+04-01 21:42:16.900  3101  3141 I YoumiSdk: App PackageName : com.wm.remusic
+04-01 21:42:16.901  3101  3141 I YoumiSdk: App Version Code : 1
+04-01 21:42:16.902  3101  3141 I YoumiSdk: App Version Name : 1.01
+04-01 21:42:16.902  3101  3141 I YoumiSdk: Test Mode : false
+04-01 21:42:16.902  3101  3141 I YoumiSdk: SDK Core Build Version : 2016092101
+04-01 21:42:16.940  3101  3101 E SplashActivity: 开屏展示失败
+04-01 21:42:16.940  3101  3101 E SplashActivity: 开屏资源还没准备好
+04-01 21:42:16.942   570   608 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@154284b:true
+04-01 21:42:17.059  3101  3145 E art     : No implementation found for java.lang.String a.b.c.d.e.f.g.h.a.g(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) (tried Java_a_b_c_d_e_f_g_h_a_g and Java_a_b_c_d_e_f_g_h_a_g__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2)
+04-01 21:42:17.081  3101  3140 W YoumiSdk: update check msg : failed! code = -3003.
+04-01 21:42:17.181  3101  3161 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+04-01 21:42:17.193  2953  2953 D MusicPlaybackService: Got new intent Intent { cmp=com.wm.remusic/.service.MediaService }, startId = 19
+04-01 21:42:17.193  2953  2953 D MusicPlaybackService: handleCommandIntent: action = null, command = null
+04-01 21:42:17.193  2953  2953 V MusicPlaybackService: Scheduling shutdown in 300000 ms
+04-01 21:42:17.196  3101  3101 D BaseActivity: 0
+04-01 21:42:17.200  2953  2953 D MusicPlaybackService: Cancelling delayed shutdown, scheduled = true
+04-01 21:42:17.286  3101  3101 E themep  : progress tint
+04-01 21:42:17.286  3101  3101 E themep  : progress tint
+04-01 21:42:17.286  3101  3101 E themep  :  set progress tint
+04-01 21:42:17.286  3101  3101 E themep  : color = -3014656
+04-01 21:42:17.286  3101  3101 E themep  : apply progress tint
+04-01 21:42:17.286  3101  3101 E themep  : apply progress tint true
+04-01 21:42:17.286  3101  3101 E themep  : apply progress tint true tint
+04-01 21:42:17.286  3101  3101 E themep  : progress tint = 2131624026
+04-01 21:42:17.287  3101  3101 E themep  :  set progress tint
+04-01 21:42:17.287  3101  3101 E themep  : color = -3014656
+04-01 21:42:17.287  3101  3101 E themep  : apply progress tint
+04-01 21:42:17.287  3101  3101 E themep  : apply progress tint true
+04-01 21:42:17.287  3101  3101 E themep  : apply progress tint true tint
+04-01 21:42:17.288  3101  3101 W System.err: java.lang.NullPointerException: uriString
+04-01 21:42:17.288  3101  3101 W System.err: 	at android.net.Uri$StringUri.<init>(Uri.java:475)
+04-01 21:42:17.288  3101  3101 W System.err: 	at android.net.Uri$StringUri.<init>(Uri.java)
+04-01 21:42:17.288  3101  3101 W System.err: 	at android.net.Uri.parse(Uri.java:437)
+04-01 21:42:17.288  3101  3101 W System.err: 	at com.wm.remusic.fragment.QuickControlsFragment.updateNowplayingCard(QuickControlsFragment.java:188)
+04-01 21:42:17.288  3101  3101 W System.err: 	at com.wm.remusic.fragment.QuickControlsFragment.onResume(QuickControlsFragment.java:226)
+04-01 21:42:17.288  3101  3101 W System.err: 	at android.support.v4.app.Fragment.performResume(Fragment.java:2020)
+04-01 21:42:17.288  3101  3101 W System.err: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1107)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1252)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1234)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.support.v4.app.FragmentManagerImpl.dispatchResume(FragmentManager.java:2056)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.support.v4.app.FragmentController.dispatchResume(FragmentController.java:196)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.support.v4.app.FragmentActivity.onResumeFragments(FragmentActivity.java:505)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.support.v4.app.FragmentActivity.onPostResume(FragmentActivity.java:494)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.support.v7.app.AppCompatActivity.onPostResume(AppCompatActivity.java:168)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.app.Activity.performResume(Activity.java:6366)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3092)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3134)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2481)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.app.ActivityThread.-wrap11(ActivityThread.java)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.os.Looper.loop(Looper.java:148)
+04-01 21:42:17.289  3101  3101 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+04-01 21:42:17.289  3101  3101 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+04-01 21:42:17.289  3101  3101 W System.err: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:772)
+04-01 21:42:17.289  3101  3101 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:662)
+04-01 21:42:17.294  3101  3101 E YoumiSdk: Request spot ad failed, errorCode: 0.
+04-01 21:42:17.294  3101  3101 E YoumiSdk: Show spot failed, errorCode: 0.
+04-01 21:42:17.301  3101  3161 I mali_so : [File] : hardware/arm/maliT760/driver/product/base/src/mali_base_kbase.c; [Line] : 928; [Func] : base_context_deal_with_version_affairs_rk_ext;
+04-01 21:42:17.301  3101  3161 I mali_so : arm_release_ver of this mali_so is 'r12p0-04rel0', rk_so_ver is '12@0', built at '17:00:15', on 'Aug 16 2016'.
+04-01 21:42:17.301  3101  3161 I mali_so : [File] : hardware/arm/maliT760/driver/product/base/src/mali_base_kbase.c; [Line] : 955; [Func] : base_context_deal_with_version_affairs_rk_ext;
+04-01 21:42:17.301  3101  3161 I mali_so : mali_ver_property has been set to 'r12p0-04rel0-13-12@0', to return.
+04-01 21:42:17.304  3101  3161 I OpenGLRenderer: Initialized EGL, version 1.4
+04-01 21:42:17.309  3101  3161 D Surface : Surface::final mReqUsage=a00
+04-01 21:42:17.310  3101  3161 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+04-01 21:42:17.316   208   225 D gralloc : Isfb=0, [1920,1008,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:17.321   208   225 D gralloc : Isfb=0, [1920,1008,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:17.327   208   225 D gralloc : Isfb=0, [1920,1008,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:17.337  3101  3173 E ActivityThread: Failed to find provider info for null
+04-01 21:42:17.340  3101  3175 E ActivityThread: Failed to find provider info for null
+04-01 21:42:17.352  3101  3101 W FragmentManager: moveToState: Fragment state for TabNetPagerFragment{9422e71 #1 id=0x7f0d0078 android:switcher:2131558520:0} not updated inline; expected state 3 found 2
+04-01 21:42:17.382  3101  3101 E drawable: is animationdrawable
+04-01 21:42:17.382  3101  3101 E drawable: is animationdrawable not null
+04-01 21:42:17.382  3101  3101 E drawable: start0
+04-01 21:42:17.382  3101  3101 E drawable: start1
+04-01 21:42:17.382  3101  3101 E drawable: instanceof true
+04-01 21:42:17.383  3101  3101 E drawable: invalidateself
+04-01 21:42:17.384  3101  3101 W FragmentManager: moveToState: Fragment state for RankingFragment{7d9bd5c #0 id=0x7f0d010b} not updated inline; expected state 3 found 2
+04-01 21:42:17.417  3101  3101 E drawable: is animationdrawable
+04-01 21:42:17.417  3101  3101 E drawable: is animationdrawable not null
+04-01 21:42:17.417  3101  3101 E drawable: start0
+04-01 21:42:17.417  3101  3101 E drawable: start1
+04-01 21:42:17.417  3101  3101 E drawable: instanceof true
+04-01 21:42:17.417  3101  3101 E drawable: invalidateself
+04-01 21:42:17.428  3101  3101 E drawable: is animationdrawable
+04-01 21:42:17.428  3101  3101 E drawable: is animationdrawable not null
+04-01 21:42:17.428  3101  3101 E drawable: start0
+04-01 21:42:17.428  3101  3101 E drawable: start1
+04-01 21:42:17.428  3101  3101 E drawable: instanceof true
+04-01 21:42:17.428  3101  3101 E drawable: invalidateself
+04-01 21:42:17.429  3101  3101 W FragmentManager: moveToState: Fragment state for AllPlaylistFragment{44e5bbb #2 id=0x7f0d010b} not updated inline; expected state 3 found 2
+04-01 21:42:17.460  3101  3180 E action-cache: http://tingapi.ting.baidu.com/v1/restserver/ting?from=android&version=5.6.5.6&format=json&method=baidu.ting.plaza.getFocusPic&num=7
+04-01 21:42:17.467  3101  3161 D Surface : Surface::final mReqUsage=a00
+04-01 21:42:17.467  3101  3161 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+04-01 21:42:17.475   208  1118 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:17.482   208  1118 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:17.484   570   624 V AlarmManager: triggered: act=com.xiaomi.push.PING_TIMER pkg=cn.kuwo.player Pkg: cn.kuwo.player
+04-01 21:42:17.488 22229 19262 V xiaomi  : [Thread:3667] JOB: Handle intent action = com.xiaomi.push.timer
+04-01 21:42:17.488 22229 19262 V xiaomi  : [Thread:3667] Service called on timer
+04-01 21:42:17.490   208  1118 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:17.491 22229 19262 V xiaomi  : [Thread:3667] [Slim] SND ping id=0
+04-01 21:42:17.557  2953  2964 D MusicPlaybackService: notifyChange: what = com.wm.remusic.metachanged
+04-01 21:42:17.559 15260 15290 V Cursor  : Filling cursor window with start position:0 required position:0
+04-01 21:42:17.586  3101  3101 E SplashActivity: 开屏展示失败
+04-01 21:42:17.586  3101  3101 E SplashActivity: 网络异常
+04-01 21:42:17.606   245  1632 E MetadataRetrieverClient: failed to extract an album art
+04-01 21:42:17.657  3101  3180 E cache   : {"pic":[{"type":6,"mo_type":4,"code":"http:\/\/music.taihe.com\/h5pc\/spec_detail?id=1603&columnid=96","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_155385128013fb0cbf98f53fdd3e24f0e07cefb03d.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"},{"type":6,"mo_type":4,"code":"http:\/\/music.taihe.com\/h5pc\/spec_detail?id=1604&columnid=87","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_15541075783bbd0906232ab3d910db0a3539902585.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"},{"type":2,"mo_type":2,"code":"613170010","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_1554098843c06376db1b9d21b16f08b4f5bb729b0e.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"},{"type":6,"mo_type":4,"code":"http:\/\/music.taihe.com\/h5pc\/spec_detail?id=1590&columnid=92","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_1553833042a9a9802f5a5fbb5b48e2f517b6b231d6.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"},{"type":7,"mo_type":5,"code":"566116735","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_155377207729d6495eaf98b1116aa580dd89248256.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"},{"type":6,"mo_type":4,"code":"https:\/\/music.taihe.com\/redstar?frs=qianqianbanner&hideplay=1&showminibar=0","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_1547466371f5a8864429456f49e904ab0430b8dc17.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"}],"error_code":22000}
+04-01 21:42:17.669   570   609 I ActivityManager: Displayed com.wm.remusic/.activity.MainActivity: +702ms (total +1s53ms)
+04-01 21:42:17.672  3101  3101 E SimpleWidgetProvider: action = com.wm.remusic.metachanged
+04-01 21:42:17.698   245 31551 E MetadataRetrieverClient: failed to extract an album art
+04-01 21:42:17.722  3101  3101 D AndroidRuntime: Shutting down VM
+04-01 21:42:17.727  3101  3189 I System.out: 1 1.01
+04-01 21:42:17.892  3101  3161 D Surface : Surface::final mReqUsage=a00
+04-01 21:42:17.893  3101  3161 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+04-01 21:42:17.895   208  1118 D gralloc : Isfb=0, [498,75,512,2048], fmt=1, byte_stride=2048
+04-01 21:42:17.896   208  1118 D gralloc : Isfb=0, [498,75,512,2048], fmt=1, byte_stride=2048
+04-01 21:42:17.896   208  1118 D gralloc : Isfb=0, [498,75,512,2048], fmt=1, byte_stride=2048
+04-01 21:42:17.969  3101  3161 V RenderScript: 0xb7bfe818 Launching thread(s), CPUs 4
+04-01 21:42:17.991  3101  3149 E art     : No implementation found for java.lang.String a.b.c.d.e.f.g.h.a.g(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) (tried Java_a_b_c_d_e_f_g_h_a_g and Java_a_b_c_d_e_f_g_h_a_g__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2)
+04-01 21:42:17.991  3101  3149 W YoumiSdk: init failed ! url or nec is null.
+04-01 21:42:18.211  3101  3189 W System.err: com.sun.mail.smtp.SMTPSendFailedException: 554 MI:SPB UserReject 0,smtp8,DMCowADX2p_6vaJcEz8eOA--.43555S2 1554169339,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=remusic_log@163.com
+04-01 21:42:18.211  3101  3189 W System.err: 	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+04-01 21:42:18.211  3101  3189 W System.err: 	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+04-01 21:42:18.211  3101  3189 W System.err: 	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+04-01 21:42:18.211  3101  3189 W System.err: 	at com.wm.remusic.uitl.CommonUtils.sendTextMail(CommonUtils.java:165)
+04-01 21:42:18.211  3101  3189 W System.err: 	at com.wm.remusic.handler.UnceHandler$2.run(UnceHandler.java:101)
+04-01 21:42:18.211  3101  3189 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+04-01 21:42:20.043   245   321 D alsa_route: route_set_controls() set route 24
+04-01 21:42:20.044   245   321 D AudioHardwareTiny: close device
+04-01 21:42:20.749  3101  3101 I Process : Sending signal. PID: 3101 SIG: 9
+04-01 21:42:20.967   570  5661 I WindowState: WIN DEATH: Window{1478b1f u0 com.wm.remusic/com.wm.remusic.activity.MainActivity}
+04-01 21:42:20.967   570   756 D GraphicsStats: Buffer count: 7
+04-01 21:42:20.976   570  1523 I WindowState: WIN DEATH: Window{8bafe27 u0 com.wm.remusic/com.wm.remusic.activity.MainActivity}
+04-01 21:42:20.995   570   609 W WindowAnimator: Failed to dispatch window animation state change.
+04-01 21:42:20.995   570   609 W WindowAnimator: android.os.DeadObjectException
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at android.os.BinderProxy.transactNative(Native Method)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at android.os.BinderProxy.transact(Binder.java:503)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at android.view.IWindow$Stub$Proxy.onAnimationStarted(IWindow.java:520)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.updateWindowsLocked(WindowAnimator.java:282)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.animateLocked(WindowAnimator.java:678)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.-wrap0(WindowAnimator.java)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator$1.doFrame(WindowAnimator.java:123)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:856)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at android.view.Choreographer.doCallbacks(Choreographer.java:670)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at android.view.Choreographer.doFrame(Choreographer.java:603)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:844)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at android.os.Handler.handleCallback(Handler.java:743)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at android.os.Looper.loop(Looper.java:148)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+04-01 21:42:20.995   570   609 W WindowAnimator: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+04-01 21:42:21.052   570   645 D ConnectivityService: notifyType CAP_CHANGED for NetworkAgentInfo [WIFI () - 1354]
+04-01 21:42:21.061   570  1119 I ActivityManager: Process com.wm.remusic (pid 3101) has died
+04-01 21:42:21.062  2953  2953 D MusicPlaybackService: Service unbound
+04-01 21:42:21.062   570  1119 W ActivityManager: Force removing ActivityRecord{7695110 u0 com.wm.remusic/.activity.MainActivity t346}: app died, no saved state
+04-01 21:42:21.132  2953  2953 V MusicPlaybackService: Scheduling shutdown in 300000 ms
+04-01 21:42:21.163   570   643 W art     : Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied() from ActivityManagerService.java:1335 waiters=0 for 111ms
+04-01 21:42:21.182   730  1031 D Surface : Surface::final mReqUsage=a00
+04-01 21:42:21.183   730  1031 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+04-01 21:42:21.196   208   223 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:21.209   208   223 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:21.222   208   223 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:21.227   570   728 W InputMethodManagerService: Got RemoteException sending setActive(false) notification to pid 3101 uid 10060
+04-01 21:42:21.542   570   609 W WindowAnimator: Failed to dispatch window animation state change.
+04-01 21:42:21.542   570   609 W WindowAnimator: android.os.DeadObjectException
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at android.os.BinderProxy.transactNative(Native Method)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at android.os.BinderProxy.transact(Binder.java:503)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at android.view.IWindow$Stub$Proxy.onAnimationStopped(IWindow.java:534)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.updateWindowsLocked(WindowAnimator.java:286)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.animateLocked(WindowAnimator.java:678)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.-wrap0(WindowAnimator.java)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator$1.doFrame(WindowAnimator.java:123)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:856)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at android.view.Choreographer.doCallbacks(Choreographer.java:670)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at android.view.Choreographer.doFrame(Choreographer.java:603)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:844)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at android.os.Handler.handleCallback(Handler.java:743)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at android.os.Looper.loop(Looper.java:148)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+04-01 21:42:21.542   570   609 W WindowAnimator: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+04-01 21:42:21.707   570   653 E DisplaydConnector: Communications error: java.io.IOException: No such file or directory
+04-01 21:42:21.708   570   653 E DisplaydConnector: Error in NativeDaemonConnector: java.io.IOException: No such file or directory
+04-01 21:42:21.744   730  1031 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+04-01 21:42:25.743   570   624 I ActivityManager: START u0 {flg=0x4 cmp=com.wm.remusic/.activity.MainActivity (has extras)} from uid 10060 on display 0
+04-01 21:42:25.744   570   624 W ActivityManager: startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=0x4 cmp=com.wm.remusic/.activity.MainActivity (has extras) }
+04-01 21:42:25.781   570   609 D WindowStateAnimator: rk_debug2 Starting com.wm.remusic_Force_To_Dual
+04-01 21:42:25.793   570  5661 I ActivityManager: Start proc 3207:com.wm.remusic/u0a60 for activity com.wm.remusic/.activity.MainActivity
+04-01 21:42:25.797  3207  3207 I art     : Late-enabling -Xcheck:jni
+04-01 21:42:25.813   570   609 D Surface : Surface::final mReqUsage=33
+04-01 21:42:25.829   208  1118 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:25.838  3207  3213 E art     : Failed sending reply to debugger: Broken pipe
+04-01 21:42:25.838  3207  3213 I art     : Debugger is no longer active
+04-01 21:42:26.117  3207  3222 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+04-01 21:42:26.131  2953  2953 D MusicPlaybackService: Got new intent Intent { cmp=com.wm.remusic/.service.MediaService }, startId = 20
+04-01 21:42:26.131  2953  2953 D MusicPlaybackService: handleCommandIntent: action = null, command = null
+04-01 21:42:26.131  2953  2953 V MusicPlaybackService: Scheduling shutdown in 300000 ms
+04-01 21:42:26.134  3207  3207 D BaseActivity: 0
+04-01 21:42:26.137  2953  2953 D MusicPlaybackService: Cancelling delayed shutdown, scheduled = true
+04-01 21:42:26.220  1282  1285 W System.err: android.content.pm.PackageManager$NameNotFoundException: android.process.media
+04-01 21:42:26.220  1282  1285 W System.err: 	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:305)
+04-01 21:42:26.220  1282  1285 W System.err: 	at com.tencent.nucleus.manager.usagestats.UsagestatsSTManager.a(ProGuard:787)
+04-01 21:42:26.220  1282  1285 W System.err: 	at com.tencent.nucleus.manager.floatingwindow.manager.u.handleMessage(ProGuard:287)
+04-01 21:42:26.220  1282  1285 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+04-01 21:42:26.220  1282  1285 W System.err: 	at android.os.Looper.loop(Looper.java:148)
+04-01 21:42:26.220  1282  1285 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+04-01 21:42:26.231  3207  3207 E themep  : progress tint
+04-01 21:42:26.231  3207  3207 E themep  : progress tint
+04-01 21:42:26.232  3207  3207 E themep  :  set progress tint
+04-01 21:42:26.232  3207  3207 E themep  : color = -3014656
+04-01 21:42:26.232  3207  3207 E themep  : apply progress tint
+04-01 21:42:26.232  3207  3207 E themep  : apply progress tint true
+04-01 21:42:26.232  3207  3207 E themep  : apply progress tint true tint
+04-01 21:42:26.232  3207  3207 E themep  : progress tint = 2131624026
+04-01 21:42:26.232  3207  3207 E themep  :  set progress tint
+04-01 21:42:26.232  3207  3207 E themep  : color = -3014656
+04-01 21:42:26.232  3207  3207 E themep  : apply progress tint
+04-01 21:42:26.232  3207  3207 E themep  : apply progress tint true
+04-01 21:42:26.233  3207  3207 E themep  : apply progress tint true tint
+04-01 21:42:26.234  3207  3207 W System.err: java.lang.NullPointerException: uriString
+04-01 21:42:26.234  3207  3207 W System.err: 	at android.net.Uri$StringUri.<init>(Uri.java:475)
+04-01 21:42:26.234  3207  3207 W System.err: 	at android.net.Uri$StringUri.<init>(Uri.java)
+04-01 21:42:26.234  3207  3207 W System.err: 	at android.net.Uri.parse(Uri.java:437)
+04-01 21:42:26.234  3207  3207 W System.err: 	at com.wm.remusic.fragment.QuickControlsFragment.updateNowplayingCard(QuickControlsFragment.java:188)
+04-01 21:42:26.234  3207  3207 W System.err: 	at com.wm.remusic.fragment.QuickControlsFragment.onResume(QuickControlsFragment.java:226)
+04-01 21:42:26.234  3207  3207 W System.err: 	at android.support.v4.app.Fragment.performResume(Fragment.java:2020)
+04-01 21:42:26.234  3207  3207 W System.err: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1107)
+04-01 21:42:26.234  3207  3207 W System.err: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1252)
+04-01 21:42:26.234  3207  3207 W System.err: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1234)
+04-01 21:42:26.234  3207  3207 W System.err: 	at android.support.v4.app.FragmentManagerImpl.dispatchResume(FragmentManager.java:2056)
+04-01 21:42:26.234  3207  3207 W System.err: 	at android.support.v4.app.FragmentController.dispatchResume(FragmentController.java:196)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.support.v4.app.FragmentActivity.onResumeFragments(FragmentActivity.java:505)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.support.v4.app.FragmentActivity.onPostResume(FragmentActivity.java:494)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.support.v7.app.AppCompatActivity.onPostResume(AppCompatActivity.java:168)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.app.Activity.performResume(Activity.java:6366)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3092)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3134)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2481)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.app.ActivityThread.-wrap11(ActivityThread.java)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.os.Looper.loop(Looper.java:148)
+04-01 21:42:26.235  3207  3207 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+04-01 21:42:26.235  3207  3207 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+04-01 21:42:26.235  3207  3207 W System.err: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:772)
+04-01 21:42:26.235  3207  3207 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:662)
+04-01 21:42:26.261  3207  3222 I mali_so : [File] : hardware/arm/maliT760/driver/product/base/src/mali_base_kbase.c; [Line] : 928; [Func] : base_context_deal_with_version_affairs_rk_ext;
+04-01 21:42:26.261  3207  3222 I mali_so : arm_release_ver of this mali_so is 'r12p0-04rel0', rk_so_ver is '12@0', built at '17:00:15', on 'Aug 16 2016'.
+04-01 21:42:26.261  3207  3222 I mali_so : [File] : hardware/arm/maliT760/driver/product/base/src/mali_base_kbase.c; [Line] : 955; [Func] : base_context_deal_with_version_affairs_rk_ext;
+04-01 21:42:26.261  3207  3222 I mali_so : mali_ver_property has been set to 'r12p0-04rel0-13-12@0', to return.
+04-01 21:42:26.264  3207  3222 I OpenGLRenderer: Initialized EGL, version 1.4
+04-01 21:42:26.270  3207  3222 D Surface : Surface::final mReqUsage=a00
+04-01 21:42:26.270  3207  3222 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+04-01 21:42:26.276   208   225 D gralloc : Isfb=0, [1920,1008,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:26.281   208   225 D gralloc : Isfb=0, [1920,1008,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:26.287   208   225 D gralloc : Isfb=0, [1920,1008,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:26.297  3207  3234 E ActivityThread: Failed to find provider info for null
+04-01 21:42:26.300  3207  3236 E ActivityThread: Failed to find provider info for null
+04-01 21:42:26.314  3207  3207 W FragmentManager: moveToState: Fragment state for TabNetPagerFragment{310c609 #1 id=0x7f0d0078 android:switcher:2131558520:0} not updated inline; expected state 3 found 2
+04-01 21:42:26.346  3207  3207 E drawable: is animationdrawable
+04-01 21:42:26.346  3207  3207 E drawable: is animationdrawable not null
+04-01 21:42:26.346  3207  3207 E drawable: start0
+04-01 21:42:26.346  3207  3207 E drawable: start1
+04-01 21:42:26.346  3207  3207 E drawable: instanceof true
+04-01 21:42:26.346  3207  3207 E drawable: invalidateself
+04-01 21:42:26.348  3207  3207 W FragmentManager: moveToState: Fragment state for RankingFragment{482e2d4 #0 id=0x7f0d010b} not updated inline; expected state 3 found 2
+04-01 21:42:26.387  3207  3207 E drawable: is animationdrawable
+04-01 21:42:26.387  3207  3207 E drawable: is animationdrawable not null
+04-01 21:42:26.387  3207  3207 E drawable: start0
+04-01 21:42:26.387  3207  3207 E drawable: start1
+04-01 21:42:26.388  3207  3207 E drawable: instanceof true
+04-01 21:42:26.388  3207  3207 E drawable: invalidateself
+04-01 21:42:26.397  3207  3207 E drawable: is animationdrawable
+04-01 21:42:26.397  3207  3207 E drawable: is animationdrawable not null
+04-01 21:42:26.397  3207  3207 E drawable: start0
+04-01 21:42:26.397  3207  3207 E drawable: start1
+04-01 21:42:26.397  3207  3207 E drawable: instanceof true
+04-01 21:42:26.397  3207  3207 E drawable: invalidateself
+04-01 21:42:26.398  3207  3207 W FragmentManager: moveToState: Fragment state for AllPlaylistFragment{92047d0 #2 id=0x7f0d010b} not updated inline; expected state 3 found 2
+04-01 21:42:26.427  3207  3222 D Surface : Surface::final mReqUsage=a00
+04-01 21:42:26.427  3207  3222 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+04-01 21:42:26.434   208  1117 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:26.438  3207  3241 E action-cache: http://tingapi.ting.baidu.com/v1/restserver/ting?from=android&version=5.6.5.6&format=json&method=baidu.ting.plaza.getFocusPic&num=7
+04-01 21:42:26.441   208  1117 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:26.447   208  1117 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:26.523  2953  2965 D MusicPlaybackService: notifyChange: what = com.wm.remusic.metachanged
+04-01 21:42:26.558   245   245 E MetadataRetrieverClient: failed to extract an album art
+04-01 21:42:26.601  3207  3241 E cache   : {"pic":[{"type":6,"mo_type":4,"code":"http:\/\/music.taihe.com\/h5pc\/spec_detail?id=1603&columnid=96","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_155385128013fb0cbf98f53fdd3e24f0e07cefb03d.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"},{"type":6,"mo_type":4,"code":"http:\/\/music.taihe.com\/h5pc\/spec_detail?id=1604&columnid=87","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_15541075783bbd0906232ab3d910db0a3539902585.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"},{"type":2,"mo_type":2,"code":"613170010","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_1554098843c06376db1b9d21b16f08b4f5bb729b0e.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"},{"type":6,"mo_type":4,"code":"http:\/\/music.taihe.com\/h5pc\/spec_detail?id=1590&columnid=92","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_1553833042a9a9802f5a5fbb5b48e2f517b6b231d6.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"},{"type":7,"mo_type":5,"code":"566116735","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_155377207729d6495eaf98b1116aa580dd89248256.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"},{"type":6,"mo_type":4,"code":"https:\/\/music.taihe.com\/redstar?frs=qianqianbanner&hideplay=1&showminibar=0","randpic":"http:\/\/business.cdn.qianqian.com\/qianqian\/pic\/bos_client_1547466371f5a8864429456f49e904ab0430b8dc17.jpg","randpic_ios5":"","randpic_desc":"","randpic_ipad":"","randpic_qq":"","randpic_2":"","randpic_iphone6":"","special_type":0,"ipad_desc":"","is_publish":"111111"}],"error_code":22000}
+04-01 21:42:26.620   570   609 I ActivityManager: Displayed com.wm.remusic/.activity.MainActivity: +842ms
+04-01 21:42:26.622  3207  3207 E SimpleWidgetProvider: action = com.wm.remusic.metachanged
+04-01 21:42:26.649   245  1633 E MetadataRetrieverClient: failed to extract an album art
+04-01 21:42:26.664  3207  3207 D AndroidRuntime: Shutting down VM
+04-01 21:42:26.670  3207  3249 I System.out: 1 1.01
+04-01 21:42:26.709   570   653 E DisplaydConnector: Communications error: java.io.IOException: No such file or directory
+04-01 21:42:26.709   570   653 E DisplaydConnector: Error in NativeDaemonConnector: java.io.IOException: No such file or directory
+04-01 21:42:26.772  3207  3222 D Surface : Surface::final mReqUsage=a00
+04-01 21:42:26.772  3207  3222 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+04-01 21:42:26.775   208  1117 D gralloc : Isfb=0, [498,75,512,2048], fmt=1, byte_stride=2048
+04-01 21:42:26.776   208  1117 D gralloc : Isfb=0, [498,75,512,2048], fmt=1, byte_stride=2048
+04-01 21:42:26.777   208  1117 D gralloc : Isfb=0, [498,75,512,2048], fmt=1, byte_stride=2048
+04-01 21:42:26.824  3207  3222 V RenderScript: 0xb7b92310 Launching thread(s), CPUs 4
+04-01 21:42:27.177  3207  3249 W System.err: com.sun.mail.smtp.SMTPSendFailedException: 554 MI:SPB UserReject 0,smtp8,DMCowABnr5MDvqJcBkQeOA--.43460S2 1554169347,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=remusic_log@163.com
+04-01 21:42:27.177  3207  3249 W System.err: 	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202)
+04-01 21:42:27.177  3207  3249 W System.err: 	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693)
+04-01 21:42:27.177  3207  3249 W System.err: 	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194)
+04-01 21:42:27.177  3207  3249 W System.err: 	at com.wm.remusic.uitl.CommonUtils.sendTextMail(CommonUtils.java:165)
+04-01 21:42:27.177  3207  3249 W System.err: 	at com.wm.remusic.handler.UnceHandler$2.run(UnceHandler.java:101)
+04-01 21:42:27.177  3207  3249 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+04-01 21:42:27.532 22229 19262 V xiaomi  : [Thread:3667] JOB: check the ping-pong.1554169337491
+04-01 21:42:27.533 22229 19262 V xiaomi  : [Thread:3667] disconnect 124384660, 195986623
+04-01 21:42:27.534 22229 19262 V xiaomi  : [Thread:3667] update the connection status. connected -> disconnected : ERROR_PING_TIMEOUT 
+04-01 21:42:27.535 22229  1690 V xiaomi  : [Thread:9277] [Slim] read Blob [] Err:Socket closed
+04-01 21:42:27.549 22229 19262 V xiaomi  : [Thread:3667] schedule reconnect in 0ms
+04-01 21:42:27.550 22229 19262 V xiaomi  : [Thread:3667] update the client 5 status. binded->unbind CLOSE ERROR_PING_TIMEOUT null null
+04-01 21:42:27.552 22229 19262 V xiaomi  : [Thread:3667] JOB: notify job
+04-01 21:42:27.552 22229 19262 V xiaomi  : [Thread:3667] JOB: do reconnect..
+04-01 21:42:27.554 22229 19262 V xiaomi  : [Thread:3667] update the connection status. disconnected -> connecting : ERROR_OK 
+04-01 21:42:27.560 22229 19262 V xiaomi  : [Thread:3667] begin to connect to 118.26.252.11:5222
+04-01 21:42:27.596 22229 19262 V xiaomi  : [Thread:3667] tcp connected
+04-01 21:42:27.598 22229 19262 V xiaomi  : [Thread:3667] [slim] open conn: andver=23 sdk=38 hash=a-E2166880653D5B6C24215DA9A4D524DC01A28517 tz=-5:1 Model=Prodigi Connect 12 os=PGI-400_20190313_V2.20A
+04-01 21:42:27.599 22229 19262 V xiaomi  : [Thread:3667] connected to 118.26.252.11:5222 in 38
+04-01 21:42:27.628 22229  3259 V xiaomi  : [Thread:9295] setChallenge hash = 55af568d
+04-01 21:42:27.628 22229  3259 V xiaomi  : [Thread:9295] update the connection status. connecting -> connected : ERROR_OK 
+04-01 21:42:27.635 22229 19262 V xiaomi  : [Thread:3667] JOB: bind the client. 5
+04-01 21:42:27.635 22229 19262 V xiaomi  : [Thread:3667] update the client 5 status. unbind->binding unknown ERROR_OK null null
+04-01 21:42:27.635 22229  3259 V xiaomi  : [Thread:9295] [Slim] CONN: host = c248
+04-01 21:42:27.635 22229 19262 V xiaomi  : [Thread:3667] [Slim]: bind id=XrUgW-712
+04-01 21:42:27.637 15417 15417 I BootReceiver: getSwitchValue LOAD_PLUGIN_IN_BOOT_RECEIVER = false
+04-01 21:42:27.637 15417 15417 I BootReceiver: BootReceiver action = miui.intent.action.NETWORK_CONNECTED, isProtectWorking = false
+04-01 21:42:27.675 22229 19262 V xiaomi  : [Thread:3667] SMACK: channel bind succeeded, chid=5
+04-01 21:42:27.675 22229 19262 V xiaomi  : [Thread:3667] update the client 5 status. binding->binded OPEN ERROR_OK null null
+04-01 21:42:27.677 22229 19262 V xiaomi  : [Thread:3667] JOB: notify job
+04-01 21:42:29.696  3207  3207 I Process : Sending signal. PID: 3207 SIG: 9
+04-01 21:42:29.925   570   728 D GraphicsStats: Buffer count: 7
+04-01 21:42:29.925   570  1562 I WindowState: WIN DEATH: Window{61c9cd2 u0 com.wm.remusic/com.wm.remusic.activity.MainActivity}
+04-01 21:42:29.942   570   728 I WindowState: WIN DEATH: Window{2b2f42a u0 com.wm.remusic/com.wm.remusic.activity.MainActivity}
+04-01 21:42:29.953   570   609 W WindowAnimator: Failed to dispatch window animation state change.
+04-01 21:42:29.953   570   609 W WindowAnimator: android.os.DeadObjectException
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at android.os.BinderProxy.transactNative(Native Method)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at android.os.BinderProxy.transact(Binder.java:503)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at android.view.IWindow$Stub$Proxy.onAnimationStarted(IWindow.java:520)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.updateWindowsLocked(WindowAnimator.java:282)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.animateLocked(WindowAnimator.java:678)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.-wrap0(WindowAnimator.java)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator$1.doFrame(WindowAnimator.java:123)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:856)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at android.view.Choreographer.doCallbacks(Choreographer.java:670)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at android.view.Choreographer.doFrame(Choreographer.java:603)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:844)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at android.os.Handler.handleCallback(Handler.java:743)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at android.os.Looper.loop(Looper.java:148)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+04-01 21:42:29.953   570   609 W WindowAnimator: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+04-01 21:42:30.035   570  1536 I ActivityManager: Process com.wm.remusic (pid 3207) has died
+04-01 21:42:30.037   570  1536 W ActivityManager: Force removing ActivityRecord{b729770 u0 com.wm.remusic/.activity.MainActivity t347}: app died, no saved state
+04-01 21:42:30.037  2953  2953 D MusicPlaybackService: Service unbound
+04-01 21:42:30.061   730  1031 D Surface : Surface::final mReqUsage=a00
+04-01 21:42:30.062   730  1031 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+04-01 21:42:30.073   208  1117 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:30.083   208  1117 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:30.093   208  1117 D gralloc : Isfb=0, [1920,1080,1920,7680], fmt=1, byte_stride=7680
+04-01 21:42:30.096   570  1119 W InputMethodManagerService: Got RemoteException sending setActive(false) notification to pid 3207 uid 10060
+04-01 21:42:30.099 15260 15338 V Cursor  : Filling cursor window with start position:0 required position:0
+04-01 21:42:30.122  2953  2953 V MusicPlaybackService: Scheduling shutdown in 300000 ms
+04-01 21:42:30.522   570   609 W WindowAnimator: Failed to dispatch window animation state change.
+04-01 21:42:30.522   570   609 W WindowAnimator: android.os.DeadObjectException
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at android.os.BinderProxy.transactNative(Native Method)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at android.os.BinderProxy.transact(Binder.java:503)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at android.view.IWindow$Stub$Proxy.onAnimationStopped(IWindow.java:534)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.updateWindowsLocked(WindowAnimator.java:286)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.animateLocked(WindowAnimator.java:678)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.-wrap0(WindowAnimator.java)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at com.android.server.wm.WindowAnimator$1.doFrame(WindowAnimator.java:123)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:856)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at android.view.Choreographer.doCallbacks(Choreographer.java:670)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at android.view.Choreographer.doFrame(Choreographer.java:603)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:844)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at android.os.Handler.handleCallback(Handler.java:743)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at android.os.Looper.loop(Looper.java:148)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+04-01 21:42:30.522   570   609 W WindowAnimator: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+04-01 21:42:30.635   730  1031 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+04-01 21:42:31.711   570   653 E DisplaydConnector: Communications error: java.io.IOException: No such file or directory
+04-01 21:42:31.712   570   653 E DisplaydConnector: Error in NativeDaemonConnector: java.io.IOException: No such file or directory
+04-01 21:42:36.714   570   653 E DisplaydConnector: Communications error: java.io.IOException: No such file or directory
+04-01 21:42:36.716   570   653 E DisplaydConnector: Error in NativeDaemonConnector: java.io.IOException: No such file or directory
+04-01 21:42:41.718   570   653 E DisplaydConnector: Communications error: java.io.IOException: No such file or directory
+04-01 21:42:41.720   570   653 E DisplaydConnector: Error in NativeDaemonConnector: java.io.IOException: No such file or directory
+04-01 21:42:45.326   570   645 D ConnectivityService: notifyType CAP_CHANGED for NetworkAgentInfo [WIFI () - 1354]
+04-01 21:42:46.722   570   653 E DisplaydConnector: Communications error: java.io.IOException: No such file or directory
+04-01 21:42:46.724   570   653 E DisplaydConnector: Error in NativeDaemonConnector: java.io.IOException: No such file or directory

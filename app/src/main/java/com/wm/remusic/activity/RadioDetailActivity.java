@@ -170,25 +170,30 @@ public class RadioDetailActivity extends BaseActivity implements ObservableScrol
         downAll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new AlertDialog.Builder(RadioDetailActivity.this).setTitle("要下载音乐吗").
-                        setPositiveButton(RadioDetailActivity.this.getString(R.string.sure), new DialogInterface.OnClickListener() {
 
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-
-                                int len = mList.size();
-                                for (int i = 0; i < len; i++) {
-                                    Down.downMusic(MainApplication.context, mList.get(i).getSong_id(), mList.get(i).getSong_name(), artistName);
-                                }
-                                dialog.dismiss();
-                            }
-                        }).
-                        setNegativeButton(RadioDetailActivity.this.getString(R.string.cancel), new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.dismiss();
-                            }
-                        }).show();
+                int len = mList.size();
+                for (int i = 0; i < len; i++) {
+                    Down.downMusic(MainApplication.context, mList.get(i).getSong_id(), mList.get(i).getSong_name(), artistName);
+                }
+//                new AlertDialog.Builder(RadioDetailActivity.this).setTitle("要下载音乐吗").
+//                        setPositiveButton(RadioDetailActivity.this.getString(R.string.sure), new DialogInterface.OnClickListener() {
+//
+//                            @Override
+//                            public void onClick(DialogInterface dialog, int which) {
+//
+//                                int len = mList.size();
+//                                for (int i = 0; i < len; i++) {
+//                                    Down.downMusic(MainApplication.context, mList.get(i).getSong_id(), mList.get(i).getSong_name(), artistName);
+//                                }
+//                                dialog.dismiss();
+//                            }
+//                        }).
+//                        setNegativeButton(RadioDetailActivity.this.getString(R.string.cancel), new DialogInterface.OnClickListener() {
+//                            @Override
+//                            public void onClick(DialogInterface dialog, int which) {
+//                                dialog.dismiss();
+//                            }
+//                        }).show();
             }
         });
 

@@ -12,6 +12,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -240,8 +241,9 @@ public class LoodView extends FrameLayout {
 
             @Override
             protected void onPostExecute(Void aVoid) {
-                for (int i = 0; i < 7; i++) {
+                for (int i = 0; i < imageNet.size(); i++) {
                     imageViewList.get(i).setImageURI(Uri.parse(imageNet.get(i)));
+                    //TODO：数组越界
                 }
             }
         }.execute();
