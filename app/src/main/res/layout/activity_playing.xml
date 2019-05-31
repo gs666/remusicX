@@ -75,7 +75,7 @@
                     android:layout_alignParentRight="true"
 
                     android:layout_below="@+id/view_line"
-                    android:layout_marginRight="550dp"
+                    android:layout_marginRight="100dp"
                     android:layout_marginTop="-16dp"
                     android:rotation="-30"
                     android:src="@drawable/play_needle"
